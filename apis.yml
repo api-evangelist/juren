@@ -1,7 +1,28 @@
 aid: juren
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/juren.png
 name: juren
-description: juren is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Juren (巨人教育 / Juren Education) is a Chinese comprehensive basic-education
+  training institution founded in 1994 and headquartered in Beijing (Zhongguancun, Haidian
+  District). It is a B2C education and tutoring business — spanning brands such as Juren
+  School, Juren 1-on-1, Xiao Juren, and Juren online school — offering courses in Chinese,
+  English, mathematics, arts, study tours, and seasonal camps, plus education publishing
+  and franchising. It was surfaced as a portfolio company of the venture firm Qiming and
+  added to the API Evangelist network as a stub. Enrichment found NO public developer,
+  API, or technical-integration surface: the historic official domain juren.com does not
+  resolve (DNS), juren.ai is a parked for-sale domain, and juren.cn is a Chinese-language
+  marketing mirror with no developer section. This is a non-API B2C company lead retained
+  for network completeness rather than API artifact enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/juren/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +30,22 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-note: 'No public API surface found (2026-07-19). juren.com does not resolve;
+  juren.ai parked/for-sale; juren.cn is a marketing mirror with no developer portal, docs,
+  OpenAPI, packages, MCP, or /.well-known/ documents. B2C Chinese education company, not
+  an API provider. No API artifacts created (no-fabrication).'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Education
+- Training
+- Tutoring
+- EdTech
+- China
+- Consumer
+- No API
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,8 @@ maintainers:
 common:
 - type: Website
   url: https://juren.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
