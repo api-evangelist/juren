@@ -34,7 +34,7 @@ x-enrichment-note: 'No public API surface found (2026-07-19). juren.com does not
   juren.ai parked/for-sale; juren.cn is a marketing mirror with no developer portal, docs,
   OpenAPI, packages, MCP, or /.well-known/ documents. B2C Chinese education company, not
   an API provider. No API artifacts created (no-fabrication).'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
