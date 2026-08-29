@@ -35,6 +35,8 @@ description: 'Juren (巨人教育 / Juren Education) is a Chinese comprehensive 
   marketing mirror with no developer section. This is a non-API B2C company lead retained
   for network completeness rather than API artifact enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/juren/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
